@@ -10,7 +10,6 @@
     "@nomicfoundation/hardhat-verify": "^3.0.21",
     "hardhat": "3.11.1"
   },
-  "type": "module",
   "dependencies": {
     "dotenv": "^17.4.2",
     "ethers": "^6.17.0"
