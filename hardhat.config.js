@@ -1,7 +1,7 @@
 import dotenv from "dotenv";
 dotenv.config();
 
-module.exports = {
+export default {
   solidity: "0.8.20",
   networks: {
     amoy: {
