@@ -1,9 +1,10 @@
-FROM node:22
+FROM node:18
 
 WORKDIR /app
 
-COPY . .
-
+COPY package*.json ./
 RUN npm install
 
-CMD ["npx", "hardhat", "run", "scripts/deploy.js", "--network", "amoy"]
+COPY . .
+
+CMD ["npx", "hardhat", "node"]
