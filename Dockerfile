@@ -7,4 +7,4 @@ RUN npm install
 
 COPY . .
 
-CMD ["npx", "hardhat", "node"]
+CMD ["npx", "hardhat", "node", "--config", "/app/hardhat.config.cjs"]
